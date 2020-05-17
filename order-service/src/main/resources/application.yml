@@ -1,0 +1,27 @@
+logging:
+  file: D:/digiprizma/log/microservice.log
+##############################################################################
+# this configuration file is on https://github.com/das2016/properties-config-server/blob/master/order-service.yml
+##############################################################################
+#server:
+#  port: 9192
+#spring:
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#  application:
+#    name: ORDER-SERVICE
+#  cloud:
+#    config:
+#      uri:
+#      - http://localhost:8888
+##eureka:
+##  client:
+##    register-with-eureka: true
+##    fetch-registry: true
+##    service-url:
+##      defaultZone: http://localhost:8761/eureka/
+##  instance:
+##    hostname: localhost
